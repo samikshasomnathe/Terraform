@@ -39,7 +39,7 @@ resource "aws_iam_policy" "tfpolicy2"{
             ],
             "Resource": "*"
         }
-    ]
+     ]
     }
 EOF
 }
