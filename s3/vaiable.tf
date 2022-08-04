@@ -1,9 +1,9 @@
  variable "s3_bucket_names" {
     type = list
     
-   default = ["bucket1.app", 
-             "bucket2.app", 
-             "bucket3.app",
+   default = ["bucket11.app", 
+             "bucket12.app", 
+             "bucket13.app",
              "bucket4.app",
              "bucket5.app",
              "bucket6.app",
