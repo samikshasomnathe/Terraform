@@ -20,8 +20,8 @@ resource "aws_iam_policy" "tfpolicy1"{
 EOF
 }
 
-resource "aws_iam_policy" "tfpolicy1"{
-    name = "policy1"
+resource "aws_iam_policy" "tfpolicy2"{
+    name = "policy2"
 
 
   policy = <<EOF
