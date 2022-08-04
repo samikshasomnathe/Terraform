@@ -25,7 +25,7 @@ resource "aws_iam_policy" "tfpolicy2"{
 
 
   policy = <<EOF
-{
+
   {
     "Version": "2012-10-17",
     "Statement": [
@@ -40,5 +40,6 @@ resource "aws_iam_policy" "tfpolicy2"{
             "Resource": "*"
         }
     ]
+    }
 EOF
 }
